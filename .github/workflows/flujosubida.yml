@@ -32,3 +32,8 @@ jobs:
       - name: Presentacion
         run: |
           echo "Hola, mi nombre es ${{env.nombres}} ${{env.apellidos}} y tengo ${{env.edad}} años."
+
+      # 2do Step: Datos generales
+      - name: Datos generales
+        run: |
+          echo "carrera de ingeniería de sistemas"
