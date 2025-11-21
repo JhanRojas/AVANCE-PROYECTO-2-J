@@ -45,3 +45,8 @@ jobs:
         run: |
           echo "user: ${{env.user}}"
           echo "password: ${{env.password}}"
+      
+      # 4to Step: Version de mi proyecto
+      - name: Version de mi proyecto
+        run: |
+          echo "La version de mi proyecto es: ${{vars.VERSION_DE_MI_PROYECTO}}"
