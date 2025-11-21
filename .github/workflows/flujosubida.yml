@@ -31,4 +31,4 @@ jobs:
       # 1er Step: Presentacion
       - name: Presentacion
         run: |
-          echo "Hola, mi nombre es ${{env.nombres}} ${{env.apellidos}} y tengo ${{env.edad}} años.
+          echo "Hola, mi nombre es ${{env.nombres}} ${{env.apellidos}} y tengo ${{env.edad}} años."
